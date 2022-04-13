@@ -1,0 +1,220 @@
+<object-stream>
+  <Utilities.CustomList>
+    <size>2</size>
+    <head>
+      <next>
+        <next>
+          <data class="model.VaccinationCentre">
+            <name>Bad</name>
+            <address>Waterford</address>
+            <eircode>Y35E308</eircode>
+            <numParkingSpaces>3</numParkingSpaces>
+            <vaccinationBooths>
+              <size>2</size>
+              <head>
+                <next>
+                  <next>
+                    <data class="model.VaccinationBooth">
+                      <identifier>Q2</identifier>
+                      <floorLevel>3</floorLevel>
+                      <accessibility>Wheelchair Friendly</accessibility>
+                      <vaccinationAppointments>
+                        <size>1</size>
+                        <head>
+                          <next>
+                            <data class="model.VaccinationAppointment">
+                              <centreBooth>Bad - Q2</centreBooth>
+                              <date>2021-11-10</date>
+                              <time>13:00</time>
+                              <vaccinationType>AstraZeneca</vaccinationType>
+                              <vaccinationIdentifier>123A</vaccinationIdentifier>
+                              <vaccinatorDetails>Sol Badguy</vaccinatorDetails>
+                              <patientIdentifier>1234567AX</patientIdentifier>
+                            </data>
+                          </next>
+                          <data class="model.VaccinationAppointment">
+                            <centreBooth>Good - A2</centreBooth>
+                            <date>2021-11-10</date>
+                            <time>13:00</time>
+                            <vaccinationType>AstraZeneca</vaccinationType>
+                            <vaccinationIdentifier>123A</vaccinationIdentifier>
+                            <vaccinatorDetails>Sol Badguy</vaccinatorDetails>
+                            <patientIdentifier>1234567AX</patientIdentifier>
+                          </data>
+                        </head>
+                      </vaccinationAppointments>
+                    </data>
+                  </next>
+                  <data class="model.VaccinationBooth">
+                    <identifier>Q1</identifier>
+                    <floorLevel>1</floorLevel>
+                    <accessibility>N/A</accessibility>
+                    <vaccinationAppointments>
+                      <size>2</size>
+                      <head>
+                        <next>
+                          <next>
+                            <data class="model.VaccinationAppointment">
+                              <centreBooth>Bad - Q1</centreBooth>
+                              <date>2021-11-10</date>
+                              <time>13:00</time>
+                              <vaccinationType>AstraZeneca</vaccinationType>
+                              <vaccinationIdentifier>123A</vaccinationIdentifier>
+                              <vaccinatorDetails>Sol Badguy</vaccinatorDetails>
+                              <patientIdentifier>1234567AX</patientIdentifier>
+                            </data>
+                          </next>
+                          <data class="model.VaccinationAppointment">
+                            <centreBooth>Bad - Q1</centreBooth>
+                            <date>2021-11-10</date>
+                            <time>13:00</time>
+                            <vaccinationType>AstraZeneca</vaccinationType>
+                            <vaccinationIdentifier>123A</vaccinationIdentifier>
+                            <vaccinatorDetails>Sol Badguy</vaccinatorDetails>
+                            <patientIdentifier>1234567AX</patientIdentifier>
+                          </data>
+                        </next>
+                        <data class="model.VaccinationAppointment" reference="../next/data"/>
+                      </head>
+                    </vaccinationAppointments>
+                  </data>
+                </next>
+                <data class="model.VaccinationBooth" reference="../next/data"/>
+              </head>
+            </vaccinationBooths>
+          </data>
+        </next>
+        <data class="model.VaccinationCentre">
+          <name>Good</name>
+          <address>Wexford</address>
+          <eircode>Y35E308</eircode>
+          <numParkingSpaces>3</numParkingSpaces>
+          <vaccinationBooths>
+            <size>2</size>
+            <head>
+              <next>
+                <next>
+                  <data class="model.VaccinationBooth">
+                    <identifier>A4</identifier>
+                    <floorLevel>4</floorLevel>
+                    <accessibility>Wheelchair Friendly</accessibility>
+                    <vaccinationAppointments>
+                      <size>0</size>
+                      <head>
+                        <data class="model.VaccinationAppointment">
+                          <date>2021-11-28</date>
+                          <time>14:00</time>
+                          <vaccinationType>AstraZeneca</vaccinationType>
+                          <vaccinationIdentifier>123A</vaccinationIdentifier>
+                          <vaccinatorDetails>Sol Badguy</vaccinatorDetails>
+                          <patientIdentifier>1234567AB</patientIdentifier>
+                        </data>
+                      </head>
+                    </vaccinationAppointments>
+                  </data>
+                </next>
+                <data class="model.VaccinationBooth">
+                  <identifier>A2</identifier>
+                  <floorLevel>1</floorLevel>
+                  <accessibility>N/A</accessibility>
+                  <vaccinationAppointments>
+                    <size>1</size>
+                    <head>
+                      <next>
+                        <data class="model.VaccinationAppointment" reference="../../../../../../../../../next/data/vaccinationBooths/head/next/next/data/vaccinationAppointments/head/data"/>
+                      </next>
+                      <data class="model.VaccinationAppointment">
+                        <date>2021-11-28</date>
+                        <time>15:00</time>
+                        <vaccinationType>AstraZeneca</vaccinationType>
+                        <vaccinationIdentifier>123A</vaccinationIdentifier>
+                        <vaccinatorDetails>Sol Badguy</vaccinatorDetails>
+                        <patientIdentifier>1234567AB</patientIdentifier>
+                      </data>
+                    </head>
+                  </vaccinationAppointments>
+                </data>
+              </next>
+              <data class="model.VaccinationBooth" reference="../next/data"/>
+            </head>
+          </vaccinationBooths>
+        </data>
+      </next>
+      <data class="model.VaccinationCentre" reference="../next/data"/>
+    </head>
+  </Utilities.CustomList>
+  <Utilities.CustomList>
+    <size>1</size>
+    <head>
+      <next>
+        <data class="model.Patient">
+          <name>Darren Sills</name>
+          <patientIdentifier>1234567AX</patientIdentifier>
+          <dateOfBirth>2021-10-05</dateOfBirth>
+          <address>Wexford</address>
+          <phone>1234567890</phone>
+          <email>Da@g.c</email>
+          <accessibility>Wheelchair-Bound</accessibility>
+          <vaccinationRecords>
+            <size>4</size>
+            <head>
+              <next>
+                <next>
+                  <next>
+                    <next>
+                      <data class="model.VaccinationRecord">
+                        <date>2021-10-06</date>
+                        <time>MA</time>
+                        <vaccinationType>WQ</vaccinationType>
+                        <vaccinationIdentifier>ASD</vaccinationIdentifier>
+                        <vaccinatorDetails>Andrew</vaccinatorDetails>
+                        <patientIdentifier>1234567AX</patientIdentifier>
+                      </data>
+                    </next>
+                    <data class="model.VaccinationRecord">
+                      <date>2021-11-28</date>
+                      <time>15:00</time>
+                      <vaccinationType>AstraZeneca</vaccinationType>
+                      <vaccinationIdentifier>123A</vaccinationIdentifier>
+                      <vaccinatorDetails>Sol Badguy</vaccinatorDetails>
+                      <patientIdentifier>1234567AB</patientIdentifier>
+                    </data>
+                  </next>
+                  <data class="model.VaccinationRecord">
+                    <date>2021-11-28</date>
+                    <time>14:00</time>
+                    <vaccinationType>AstraZeneca</vaccinationType>
+                    <vaccinationIdentifier>123A</vaccinationIdentifier>
+                    <vaccinatorDetails>Sol Badguy</vaccinatorDetails>
+                    <patientIdentifier>1234567AB</patientIdentifier>
+                  </data>
+                </next>
+                <data class="model.VaccinationRecord">
+                  <date>2021-11-28</date>
+                  <time>14:00</time>
+                  <vaccinationType>AstraZeneca</vaccinationType>
+                  <vaccinationIdentifier>123A</vaccinationIdentifier>
+                  <vaccinatorDetails>Sol Badguy</vaccinatorDetails>
+                  <patientIdentifier>1234567AB</patientIdentifier>
+                </data>
+              </next>
+              <data class="model.VaccinationRecord" reference="../next/data"/>
+            </head>
+          </vaccinationRecords>
+        </data>
+      </next>
+      <data class="model.Patient">
+        <name>Darren Sills</name>
+        <patientIdentifier>1234567AB</patientIdentifier>
+        <dateOfBirth>2021-10-05</dateOfBirth>
+        <address>Wexford</address>
+        <phone>1234567890</phone>
+        <email>Da@g.c</email>
+        <accessibility>N/A</accessibility>
+        <vaccinationRecords>
+          <size>0</size>
+        </vaccinationRecords>
+      </data>
+    </head>
+  </Utilities.CustomList>
+</object-stream>
